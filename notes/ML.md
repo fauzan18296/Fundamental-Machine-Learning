@@ -40,11 +40,11 @@ Machine Learning (ML) adalah cabang dari artificial intelligence (AI) yang memun
 
 - **Pandas:** Untuk analisis data dan manipulasi Data Frame.
 
-- **NumPy:** Untuk pengiraan tatasusunan (array) pelbagai dimensi.
+- **NumPy:** Untuk pengiraan tata susunan (array) berbagai dimensi.
 
-- **Scikit-Learn (sklearn):** Library utama yang menyediakan pelbagai algoritma machine learning.
+- **Scikit-Learn (sklearn):** Library utama yang menyediakan berbagai algoritma machine learning.
 
-- **Jupyter Notebook:** Persekitaran pembangunan yang memudahkan visualisasi data.
+- **Jupyter Notebook:** Sebuah environment yang memudahkan visualisasi data.
 
 ---
 
@@ -72,6 +72,12 @@ atau menggunakan jupyter lab:
 
 ```bash
 pip install jupyterlab ipykernel
+```
+
+Setelah install, daftarkan environment kernel:
+
+```bash
+python -m ipykernel install --user --name venv --display-name "Python (venv)"
 ```
 
 ---
@@ -119,6 +125,7 @@ df = df.dropna()  # buang baris yang nilai kosong
 ```
 
 **7.2 Encode Label**
+
 Kalau kolom target berupa teks:
 
 ```python
